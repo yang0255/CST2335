@@ -4,4 +4,9 @@
         <string name="app_name">AndroidLabs</string>
         <string name="hello_message">你好， 世界!</string>
         <string name="ButtonText">我是一个按钮</string>
+        <string name="TextButton">按钮</string>
+        <string name="TextWidget">这是我的窗口</string>
+        <string name="TextCheck">请打勾</string>
+        <string name="TextSwitch">开或关</string>
+        <string name="TextAnswer">请输入答案</string>
     </resources>
