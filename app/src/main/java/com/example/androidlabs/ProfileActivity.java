@@ -52,7 +52,22 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivityForResult(newIntent, 60);
 
             });
-             }
+
+/*    Button newButton = (Button) findViewById(R.id.button4);
+            newButton.setOnClickListener(e -> {
+
+        Intent newIntent = new Intent(ProfileActivity.this, TestToolbar.class);
+        //EditText et = (EditText) findViewById(R.id.editText1);
+        // newIntent.putExtra("typed", et.getText().toString());
+        startActivity(newIntent);*/
+
+                        Button button = (Button) findViewById(R.id.button4);
+                        Intent intent1 = new Intent(ProfileActivity.this, TestToolbar.class);
+                        button.setOnClickListener(d -> {
+                            startActivityForResult(intent1,45);
+
+    });
+}
 
    // }
 

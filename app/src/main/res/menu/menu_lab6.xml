@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/choice1"
+        android:icon="@drawable/monkey"
+        android:title="choice1"
+        app:showAsAction="always"
+        android:orderInCategory="7"/>
+
+    <item android:id="@+id/choice2"
+        android:icon="@drawable/dragon"
+        android:title="choice2"
+        app:showAsAction="always"
+        android:orderInCategory="150"/>
+
+    <item android:id="@+id/choice3"
+        android:icon="@drawable/dog"
+        android:title="choice3"
+        app:showAsAction="always"
+        android:orderInCategory="200"/>
+
+    <item android:id="@+id/choice4"
+        android:title="choice4"
+        app:showAsAction="never" />
+
+</menu>

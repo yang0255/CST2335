@@ -10,5 +10,8 @@
     <string name="send">SEND</string>
     <string name="receive">RECEIVE</string>
     <string name="Type">Type here</string>
+    <string name="Choice1">Choice1</string>
+    <string name="Choice2">Choice2</string>
+    <string name="Choice3">Choice3</string>
 
 </resources>

@@ -13,18 +13,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = findViewById(R.id.button);
-        if (button != null) {
+
+/*        if (button != null) {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity.this, ChatRoomActivitylab5.class);
-                    startActivityForResult(intent, 45);
+                    Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+                   // intent.setClass(MainActivity.this, TestToolbar.class);
+                    startActivity(intent);*//*
 
 
                 }
-            });
+            });*/
+        Button button = (Button) findViewById(R.id.button);
+        Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+        button.setOnClickListener(d -> {
+            startActivityForResult(intent,202);
+        });
+
         }
     }
-}
