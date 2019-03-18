@@ -21,8 +21,6 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, TestToolbar.class);
                    // intent.setClass(MainActivity.this, TestToolbar.class);
                     startActivity(intent);*//*
-
-
                 }
             });*/
         Button button = (Button) findViewById(R.id.button);
@@ -31,5 +29,5 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(intent,202);
         });
 
-        }
     }
+}
