@@ -46,7 +46,7 @@ public class ProfileActivity extends AppCompatActivity {
             Button chatButton = (Button) findViewById(R.id.button3);
             chatButton.setOnClickListener(c -> {
 
-                Intent newIntent = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+                Intent newIntent = new Intent(ProfileActivity.this, ChatRoomActivitylab5_lab8.class);
                 //EditText et = (EditText) findViewById(R.id.editText1);
                // newIntent.putExtra("typed", et.getText().toString());
                 startActivityForResult(newIntent, 60);
