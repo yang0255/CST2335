@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".EmptyActivity">
 
+    <FrameLayout
+        android:id="@+id/fragmentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/refresher"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentEnd="true" />
+
 </android.support.constraint.ConstraintLayout>

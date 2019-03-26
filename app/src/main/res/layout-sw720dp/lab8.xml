@@ -20,6 +20,14 @@
                 android:background="@color/colorAccent" />
         </android.support.v4.widget.SwipeRefreshLayout>
 
+        <FrameLayout
+            android:id="@+id/fragmentLocation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/refresher"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentEnd="true" />
+
     </RelativeLayout>
 
     <RelativeLayout

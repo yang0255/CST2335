@@ -109,7 +109,7 @@ public class ChatRoomActivitylab5_lab8 extends AppCompatActivity {
         }*/
 
                         Bundle dataToPass = new Bundle();
-                        dataToPass.putString(ITEM_SELECTED, source.get(position) );
+                        dataToPass.putString(MyDatabaseOpenHelper.COL_MESSAGE, String.valueOf(messages.get(position).getMessage()) );
                         dataToPass.putString(ITEM_MESSAGE,  messages.get(position).getMessage());
                         dataToPass.putInt(ITEM_ISSEND, messages.get(position).getIsSent()==true?1:0);
                         dataToPass.putLong(ITEM_POSITION, position);
@@ -188,6 +188,8 @@ public class ChatRoomActivitylab5_lab8 extends AppCompatActivity {
             public Object getItem(int position) {
                 return messages.get(position).getMessage();//"\nItem "+ (position+1) + "\nSub Item "+ (position+1) +"\n";
             }
+
+
 
             public View getView(int position, View old, ViewGroup parent) {
                 LayoutInflater inflater = getLayoutInflater();
